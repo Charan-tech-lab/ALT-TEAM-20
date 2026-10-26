@@ -1,0 +1,5 @@
+Algorithm,total_energy_kwh,total_building_demand_kwh,total_cost_dollar,peak_demand_kw,cumulative_reward,comfort_violations_deg_hours,avg_temp_deviation_deg_c,solar_self_consumption_pct,energy_savings_pct,cost_reduction_pct,peak_demand_reduction_pct
+RBC (Baseline),6229.71,8158.83,1329.13,115.2,-9613.74,268.37,3.334,97.6,0.0,0.0,0.0
+DQN,5802.75,7524.96,1154.67,98.41,-99283.16,1048.87,9.212,91.4,6.85,13.13,14.57
+DDPG,8278.37,10263.26,1404.14,94.88,-4606.73,185.66,2.705,97.0,-32.89,-5.64,17.64
+PPO,5228.4,7052.23,933.45,65.09,-25116.04,644.3,6.16,92.2,16.07,29.77,43.49

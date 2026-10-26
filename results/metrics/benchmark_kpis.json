@@ -1,0 +1,54 @@
+{
+    "RBC (Baseline)": {
+        "total_energy_kwh": 6229.71,
+        "total_building_demand_kwh": 8158.83,
+        "total_cost_dollar": 1329.13,
+        "peak_demand_kw": 115.2,
+        "cumulative_reward": -9613.74,
+        "comfort_violations_deg_hours": 268.37,
+        "avg_temp_deviation_deg_c": 3.334,
+        "solar_self_consumption_pct": 97.6,
+        "energy_savings_pct": 0.0,
+        "cost_reduction_pct": 0.0,
+        "peak_demand_reduction_pct": 0.0
+    },
+    "DQN": {
+        "total_energy_kwh": 5802.75,
+        "total_building_demand_kwh": 7524.96,
+        "total_cost_dollar": 1154.67,
+        "peak_demand_kw": 98.41,
+        "cumulative_reward": -99283.16,
+        "comfort_violations_deg_hours": 1048.87,
+        "avg_temp_deviation_deg_c": 9.212,
+        "solar_self_consumption_pct": 91.4,
+        "energy_savings_pct": 6.85,
+        "cost_reduction_pct": 13.13,
+        "peak_demand_reduction_pct": 14.57
+    },
+    "DDPG": {
+        "total_energy_kwh": 8278.37,
+        "total_building_demand_kwh": 10263.26,
+        "total_cost_dollar": 1404.14,
+        "peak_demand_kw": 94.88,
+        "cumulative_reward": -4606.73,
+        "comfort_violations_deg_hours": 185.66,
+        "avg_temp_deviation_deg_c": 2.705,
+        "solar_self_consumption_pct": 97.0,
+        "energy_savings_pct": -32.89,
+        "cost_reduction_pct": -5.64,
+        "peak_demand_reduction_pct": 17.64
+    },
+    "PPO": {
+        "total_energy_kwh": 5228.4,
+        "total_building_demand_kwh": 7052.23,
+        "total_cost_dollar": 933.45,
+        "peak_demand_kw": 65.09,
+        "cumulative_reward": -25116.04,
+        "comfort_violations_deg_hours": 644.3,
+        "avg_temp_deviation_deg_c": 6.16,
+        "solar_self_consumption_pct": 92.2,
+        "energy_savings_pct": 16.07,
+        "cost_reduction_pct": 29.77,
+        "peak_demand_reduction_pct": 43.49
+    }
+}
